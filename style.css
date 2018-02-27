@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px');
+
+html, body {
+    background: url(bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+h1 {font-size:2.5rem; font-family: 'Open Sans', sans-serif; color: #ffffff;text-shadow: 1px 1px #aaaaaa;}
+h2 {font-family: 'Slabo 27px', serif;}
+
+.muted-button, .muted-button:hover {background: transparent;color:#fff;border:3px solid #fff; outline-style: none;}
+.muted-button:hover {border:3px solid #ff0000}
+
+[type=text],[type=text]:hover, [type=text]:focus {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 3px solid #ffffff;
+    margin: 40px 0;
+    color: #ffffff;
+    font-size:2rem;
+    outline-style:none;
+    box-shadow:none;
+}
+
+[type=text]::-webkit-input-placeholder,[type=text]::placeholder {color:#ffffff}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+ul li:hover {text-decoration: line-through;color:#fff; cursor: pointer}
